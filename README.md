@@ -4,5 +4,7 @@ This car is modeled after the original MX5 ND in the game, featuring a modified 
 
 To use these cars in Assetto Corsa, copy the "ks_mazda_mx5_nd2_kevin" and "ks_mazda_mx5_cup_nd2" folders to the "content/cars" directory.
 
+Kevin's [Sonoma telemetry calibration](analysis/sonoma_20261031/README.md) documents the measured pressure settings, physics changes, and real-car reference lap for further AC comparisons.
+
 ![](ks_mazda_mx5_nd2_kevin/skins/00_soul_red_metallic/preview.jpg)
 ![](ks_mazda_mx5_cup_nd2/skins/04_cup_29/preview.jpg)
