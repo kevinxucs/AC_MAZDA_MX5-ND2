@@ -7,9 +7,19 @@ The original recordings are read-only inputs; their SHA-256 hashes are in
 `summary.json`. No raw archives or videos are copied into the repository.
 
 Kevin confirmed that the hardware and alignment are unchanged: 235/40R17
-Nankang CR-S, 17x9 Hypergrams, 12k/6k Xidas, -3.5/-2.5 camber, and the
-Mazda Motorsports/DS1.11 front + OEM/G-LOC R8 rear brakes. Kevin supplied hot
-pressure targets of **31 psi front / 30 psi rear**.
+Nankang CR-S, 17x9 Hypergrams, 12k/6k Xidas, and -3.5/-2.5 camber.
+Kevin explicitly confirmed the brake hardware:
+
+- Front: Mazda Motorsports big brake kit for the ND Miata, with Ferodo DS1.11 pads.
+- Rear: stock ND calipers and discs, with G-Loc R8 pads.
+
+The front kit is the Mazda Motorsports Brembo package, rather than the factory
+optional Brembo brake package. Mazda specifies four-piston front calipers and
+310 x 28 mm discs for the Motorsports kit. Confirming this hardware does not
+measure hydraulic brake torque or the variable front/rear distribution; the
+existing AC 2900 Nm / 72% settings remain estimates.
+
+Kevin supplied hot pressure targets of **31 psi front / 30 psi rear**.
 
 ## Applied physics changes
 
@@ -181,6 +191,8 @@ correct factory gearing, and a repeatable baseline for that comparison.
 
 ## External references
 
+- [Mazda Motorsports ND front big brake kit](https://www.mazdamotorsports.com/2024/09/11/parts-spotlight-brembo-mx-5-cup-big-brake-package-for-nd-chassis-mx-5/):
+  four-piston Brembo calipers and 310 x 28 mm discs, designed for OEM ABS / variable proportioning.
 - [RaceChrono channel identifiers and packed positions](https://racechrono.com/forum/d/2659-2659):
   channel numbers and axle/corner decoding; raw storage layout additionally
   checked against timestamps, plausible units, and cross-channel agreement.
